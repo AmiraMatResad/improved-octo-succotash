@@ -1,0 +1,33 @@
+table, tr, td, th
+	{
+		border: 1px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		width: 50%;
+
+	}
+
+tr:nth-child(even)
+	{
+		background-color: #d62976;
+	}
+
+tr:nth-child(odd)
+	{
+		background-color: #962fbf;
+	}
+th
+	{
+		background-color: #fa7e1e;
+	}
+
+tr:hover
+	{
+		background-color: #4f5bd5;
+	}
+
+p
+	{
+		font-family: 'Indie Flower', cursive;
+	}
+
